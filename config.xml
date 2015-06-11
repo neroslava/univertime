@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ru.neroslava.univertime" version="1.0.0">
-  <name>univertime</name>
-  <description>univertime</description>
+  <name>Univertime</name>
+  <description>Univertime</description>
   <author href="http://univertime.ru" email="support@univertime.ru">neroslava</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
