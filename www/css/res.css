@@ -1,0 +1,60 @@
+@media screen and (max-width: 1024px) {
+    /* HEADER */
+    .header{
+        height: 142px;
+        border-bottom: solid 4px #1b90cd;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    /* HEADER */
+    .header{
+        height: 135px;
+        border-bottom: solid 4px #1b90cd;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* HEADER */
+    .header{
+        height: 111px;
+        border-bottom: solid 3px #1b90cd;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* HEADER */
+    .header{
+        height: 106px;
+        border-bottom: solid 3px #1b90cd;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* HEADER */
+    .header{
+        height: 88px;
+        border-bottom: solid 3px #1b90cd;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* HEADER */
+    .header{
+    	padding: 0 40px 0 40px;
+        height: 66px;
+        border-bottom: solid 3px #1b90cd;
+    }
+
+    .button-gril{
+    	margin-top: 28px;
+    	background-image: url(../img/gril480.png);
+		width: 19px;
+		height: 10px;
+    }
+
+    .title{
+    	font-size: 11pt;
+    }
+}
+
