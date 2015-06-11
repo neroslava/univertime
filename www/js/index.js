@@ -8,5 +8,8 @@ var loading = {
     onDeviceReady: function() {
         // $('.loading').hide(3000);
         $('.loading').animate({opacity: '0'}, 2500);
+        setTimeout(function() {
+                $('.loading').css({display: 'none'})
+            }, 2500);
     }
 };
