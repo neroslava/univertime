@@ -11,5 +11,9 @@ var loading = {
         setTimeout(function() {
                 $('.loading').css({display: 'none'})
             }, 2500);
+        setTimeout(function() {
+                $('.warpper-app').css({display: 'block'})
+            }, 1000);
+        $('.warpper-app').animate({opacity: '1'}, 3500);
     }
 };
