@@ -56,5 +56,26 @@
     .title{
     	font-size: 13pt;
     }
+
+    /* block-week */
+
+    .block-week{
+    	height: 72px;
+    }
+
+	.type-week p{
+		line-height: 72px;
+	}
+
+	/* block-days */
+
+	.block-days{
+   	 	margin-top: 19px;
+	}
+
+	p.title-day{
+		line-height: 80px;
+		height: 80px;
+	}
 }
 
