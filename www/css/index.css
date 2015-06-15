@@ -98,10 +98,11 @@ body {
 .type-week{
     display: table-cell;
     float: left;
-    width: -moz-calc(50% - 2px);
+   /* width: -moz-calc(50% - 2px);
     width: -webkit-calc(50% - 2px);
     width: -webkit-calc(50% - 2px);
-    width: calc(50% - 2px);
+    width: calc(50% - 2px);*/
+    width: 50%;
 }
 
 .type-week p{
