@@ -70,12 +70,25 @@
 	/* block-days */
 
 	.block-days{
+    	padding: 0 40px 0 40px;
    	 	margin-top: 19px;
 	}
 
 	p.title-day{
 		line-height: 80px;
 		height: 80px;
+	}
+
+	.work{
+		min-height: 80px;
+	}
+
+	.number-work{
+		width: 90px;
+	}
+
+	.description-work{
+		padding-left: 35px;
 	}
 }
 

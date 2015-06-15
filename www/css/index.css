@@ -90,6 +90,7 @@ body {
     position: relative;
     background: #f5f5f5;
     border-top: solid #ebebeb 2px; 
+    border-bottom: solid #ebebeb 2px; 
     width: 100%;
     height: 164px;
 }
@@ -115,7 +116,8 @@ body {
 }
 
 .active{
-    left: 0;
+    bottom: -2px;
+    left: 0s;
     position: absolute;
     height: 2px;
     width: 50%;
@@ -129,8 +131,11 @@ body {
 /* block-days */
 
 .block-days{
+    border-top: solid #ebebeb 2px; 
+    box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
     background: #f5f5f5;
     width: 100%;
+    padding: 0 88px 0 88px;
     margin-top: 44px;
 }
 
@@ -142,4 +147,14 @@ p.title-day{
     width: 100%;
     line-height: 140px;
     height: 140px;
+}
+
+.number-work{
+    border-right: solid #ebebeb 2px;
+    width: 200px;
+    float: left;
+}
+
+.description-work{
+    padding-left: 80px;
 }
