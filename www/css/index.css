@@ -98,6 +98,9 @@ body {
 .type-week{
     display: table-cell;
     float: left;
+    width: -moz-calc(50% - 2px);
+    width: -webkit-calc(50% - 2px);
+    width: -webkit-calc(50% - 2px);
     width: calc(50% - 2px);
 }
 
@@ -131,12 +134,20 @@ body {
 /* block-days */
 
 .block-days{
+    position: relative;
     border-top: solid #ebebeb 2px; 
     box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
     background: #f5f5f5;
     width: 100%;
     padding: 0 88px 0 88px;
     margin-top: 44px;
+}
+
+.line{
+    position: absolute;
+    left: 80px;
+    width: 2px;
+    background: #ebebeb;
 }
 
 .block-days p{
@@ -150,11 +161,12 @@ p.title-day{
 }
 
 .number-work{
-    border-right: solid #ebebeb 2px;
-    width: 200px;
+    min-height: 80px;
+    /*border-right: solid #ebebeb 2px;*/
+    width: 280px;
     float: left;
 }
 
 .description-work{
-    padding-left: 80px;
+
 }
