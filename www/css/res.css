@@ -52,11 +52,11 @@
 	/* block-week */
 
     .block-week{
-    	height: 72px;
+    	height: 107px;
     }
 
 	.type-week p{
-		line-height: 72px;
+		line-height: 107px;
 	}
 
 	/* block-days */
@@ -67,16 +67,16 @@
 	}
 
 	p.title-day{
-		line-height: 80px;
-		height: 80px;
+		line-height: 95px;
+		height: 95px;
 	}
 
 	.work{
-		min-height: 80px;
+		min-height: 95px;
 	}
 
 	.number-work{
-		width: 125px;
+		width: 186px;
 	}
 
 
