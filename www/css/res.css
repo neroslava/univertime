@@ -30,6 +30,59 @@
     }
 }
 
+@media screen and (max-width: 720px) {
+    /* HEADER */
+    .header{
+        height: 106px;
+        border-bottom: solid 3px #1b90cd;
+    }
+
+    .button-gril{
+    	margin-top: 43px;
+    	background-image: url(../img/gril720.png);
+		width: 29px;
+		height: 19px;
+    }
+
+	.title{
+		line-height: 106px;
+    	font-size: 17pt;
+    }
+
+	/* block-week */
+
+    .block-week{
+    	height: 72px;
+    }
+
+	.type-week p{
+		line-height: 72px;
+	}
+
+	/* block-days */
+
+	.block-days{
+    	padding: 0 90px 0 90px;
+   	 	margin-top: 19px;
+	}
+
+	p.title-day{
+		line-height: 80px;
+		height: 80px;
+	}
+
+	.work{
+		min-height: 80px;
+	}
+
+	.number-work{
+		width: 125px;
+	}
+
+
+
+}
+
 @media screen and (max-width: 640px) {
     /* HEADER */
     .header{

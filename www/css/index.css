@@ -111,13 +111,13 @@ body {
     text-align: center;
 }
 
-.true-week{
+/*.true-week{
      border-left: solid #ebebeb 1px;
 }
 
 .false-week{
      border-right: solid #ebebeb 1px;
-}
+}*/
 
 .active{
     bottom: -2px;
@@ -169,5 +169,5 @@ p.title-day{
 }
 
 .description-work{
-
+    display: table-cell;
 }
